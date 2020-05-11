@@ -20,7 +20,7 @@ return array
 }
 
 function findBy(array, findFn) {
-  for (var i = 0; i < array.length; i++) {
+  for (let i = 0; i < array.length; i++) {
     var test = findFn(array[i]);
 
     if (test) {
